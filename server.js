@@ -118,6 +118,7 @@ servidor.use(bodyParser.json())
       .catch(error => {
         if(error.name === "ValidationError"){
           response.sendStatus(400) // bad request
+          console.log(error)
         } else {
           response.sendStatus(500)
         }

@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 const maravilhosasController = require('./MaravilhosasController')
 const divasController = require('./DivasController')
 const servidor = express()
-const PORTA = 3990
+const PORTA = 2990
 
 connect()
 servidor.use(cors())
